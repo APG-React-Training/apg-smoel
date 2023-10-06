@@ -6,7 +6,7 @@ const List = ({ people }) => {
     return(
         <div>
             {
-                people.data.map( (item, index) => {
+                people.map( (item, index) => {
 
                     return( 
                         <ListItem key={ item.id }
